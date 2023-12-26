@@ -1,0 +1,6 @@
+framework module MacSimCamera {
+  umbrella header "MacSimCamera-umbrella.h"
+
+  export *
+  module * { export * }
+}

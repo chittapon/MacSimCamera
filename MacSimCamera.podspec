@@ -21,20 +21,21 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Chittapon Thongchim/MacSimCamera'
+  s.homepage         = 'https://github.com/chittapon/MacSimCamera'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Chittapon Thongchim' => 'chittapon.t@arise.tech' }
-  s.source           = { :git => 'https://github.com/Chittapon Thongchim/MacSimCamera.git', :tag => s.version.to_s }
+  s.author           = { 'Chittapon Thongchim' => 'papcoe@gmail.com' }
+  s.source           = { :git => 'https://github.com/chittapon/MacSimCamera.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.swift_version = '5'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'MacSimCamera/Classes/**/*'
+  s.source_files = 'MacSimCamera/Sources/**/*'
   
-  # s.resource_bundles = {
-  #   'MacSimCamera' => ['MacSimCamera/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'MacSimCamera' => ['MacSimCamera/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

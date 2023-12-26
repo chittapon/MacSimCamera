@@ -1,0 +1,16 @@
+PODS:
+  - MacSimCamera (0.1.0)
+
+DEPENDENCIES:
+  - MacSimCamera (from `../`)
+
+EXTERNAL SOURCES:
+  MacSimCamera:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MacSimCamera: af4ad2e9afbb5190300421c644acb7623d8c2a70
+
+PODFILE CHECKSUM: 6da372e54f98e4af6d22de5037312f862fd1d894
+
+COCOAPODS: 1.13.0

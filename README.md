@@ -22,7 +22,7 @@ pod 'MacSimCamera'
 
 ## Author
 
-Chittapon Thongchim, chittapon.t@arise.tech
+Chittapon Thongchim, papcoe@gmail.com
 
 ## License
 

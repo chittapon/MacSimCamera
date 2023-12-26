@@ -1,0 +1,29 @@
+{
+  "name": "MacSimCamera",
+  "version": "0.1.0",
+  "summary": "A short description of MacSimCamera.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Chittapon Thongchim/MacSimCamera",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chittapon Thongchim": "chittapon.t@arise.tech"
+  },
+  "source": {
+    "git": "https://github.com/Chittapon Thongchim/MacSimCamera.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "MacSimCamera/Sources/**/*",
+  "resource_bundles": {
+    "MacSimCamera": [
+      "MacSimCamera/Assets/*"
+    ]
+  },
+  "swift_version": "5"
+}

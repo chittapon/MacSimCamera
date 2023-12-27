@@ -25,6 +25,12 @@ class AVCaptureSession_Swizzle: NSObject {
         MacSimCamera.instance.setInput(input)
     }
     
+    @objc open func canSetSessionPreset(_ preset: AVCaptureSession.Preset) -> Bool {
+        true
+    }
+    
+    @objc open func setSessionPreset(_ preset: AVCaptureSession.Preset) {}
+    
     @objc open func canAddInput(_ input: AVCaptureInput) -> Bool {
         true
     }

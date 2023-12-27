@@ -35,6 +35,10 @@ class AVCaptureSession_Swizzle: NSObject {
         true
     }
     
+    @objc open func canAddOutput(_ output: AVCaptureOutput) -> Bool {
+        true
+    }
+    
     @objc open func addOutput(_ output: AVCaptureOutput) {
         MacSimCamera.instance.setOutput(output)
     }
